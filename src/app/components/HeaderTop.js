@@ -5,18 +5,21 @@ import {
   FaInstagramSquare,
 } from "react-icons/fa";
 
+const headerTopIconWrapper =
+  "bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-red-200 hover:text-white";
+
 const HeaderTop = () => {
   return (
     <div className="hidden sm:block py-4 px-32">
       <div className="flex justify-between">
         <div className="flex justify-center gap-1">
-          <div>
+          <div className={`${headerTopIconWrapper}`}>
             <FaFacebookSquare size={20} />
           </div>
-          <div>
+          <div className={`${headerTopIconWrapper}`}>
             <FaTwitterSquare size={20} />
           </div>
-          <div>
+          <div className={`${headerTopIconWrapper}`}>
             <FaInstagramSquare size={20} />
           </div>
         </div>

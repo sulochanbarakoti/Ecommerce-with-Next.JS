@@ -10,7 +10,7 @@ const headerTopIconWrapper =
 
 const HeaderTop = () => {
   return (
-    <div className="hidden sm:block py-4 px-32">
+    <div className="hidden sm:block py-4 px-32 border-b-2 ">
       <div className="flex justify-between">
         <div className="flex justify-center gap-1">
           <div className={`${headerTopIconWrapper}`}>
